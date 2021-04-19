@@ -15,7 +15,7 @@ docker run --rm -p 2181:2181 -p 3030:3030 -p 8081-8083:8081-8083 -p 9581-9585:95
 ```
 
 == Git configuration
-Add a file into git, take in mind that you need use a webhook to make a call to /monitor endpoint.
+Add a file into git, take in mind that you need to use a webhook to make a call to /monitor endpoint.
 
 
 === Run the server
