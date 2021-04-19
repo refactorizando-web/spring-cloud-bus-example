@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: git
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/refactorizando-web/spring-cloud-config-server-git
+          order: 1
+    bus:
+      enabled: true
+    kafka:
+      bootstrap-servers: ${KAFKA_ADDR:http://localhost:9092}

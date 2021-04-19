@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: configclient
+  cloud:
+    config:
+      uri: http://localhost:8080
+    bus:
+      enabled: true
+      refresh:
+        enabled: true
+    kafka:
+      bootstrap-servers: ${KAFKA_ADDR:http://localhost:9092}
+server.port: 8888

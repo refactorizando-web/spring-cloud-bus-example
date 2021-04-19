@@ -1,0 +1,21 @@
+= Config Client with Spring Cloud Bus =
+
+
+This project is a simple example to connect with spring cloud config server using Spring Cloud Bus
+
+In the main class you have two different properties.
+
+== How does it work?
+
+You can run this project:
+
+ * running from maven:
+
+```
+mvn spring-boot:run
+
+```
+
+* running from ClientApplication Class.
+
+
