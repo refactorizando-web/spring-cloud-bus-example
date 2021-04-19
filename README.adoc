@@ -3,6 +3,7 @@
 == Introducción ==
 This project born with the idea of connect a spring cloud config server with a client with Spring Cloud Bus with the target of have refresh on real time with kafka.
 You can find this project on https://refactorizando.com/microservicios-spring-cloud-bus
+
 == Kafka Configuration
 
 The first step is running kafka, for this we are going to use docker.
