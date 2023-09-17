@@ -1,10 +1,11 @@
-= Config Server and Config Client with Spring Cloud Bus=
+= Config Server and Config Client with Spring Cloud Bus
 
 == Introducción ==
 This project born with the idea of connect a spring cloud config server with a client with Spring Cloud Bus with the target of have refresh on real time with kafka.
 You can find this project on 
 
 * Spanish: https://refactorizando.com/microservicios-spring-cloud-bus
+
 * English: https://refactorizando.com/en/microservices-with-spring-cloud-bus/
 
 == Kafka Configuration
